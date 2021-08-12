@@ -4,6 +4,9 @@ date: '09:17 12-08-2021'
 taxonomy:
     category:
         - docs
+published: true
+routable: true
+visible: true
 ---
 
 Documentation on general configuration of Proxmox cluster nodes.
