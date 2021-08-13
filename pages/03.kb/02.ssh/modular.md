@@ -5,10 +5,9 @@ content:
     items: '@self.modular'
 ---
 
-# Useful SSH commands
-
-#### Force SSH to only use password auth
+##### Force SSH to only use password auth
 
 ```
 ssh -o PasswordAuthentication=yes -o PreferredAuthentications=keyboard-interactive,password -o PubkeyAuthentication=no
 ```
+
