@@ -1,6 +1,5 @@
 ---
 title: knowledgebase
-date: '10:57 12-08-2021'
 published: true
 taxonomy:
     category:
