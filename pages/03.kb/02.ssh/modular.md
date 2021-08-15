@@ -1,5 +1,5 @@
 ---
-title: SSH
+title: ssh
 date: '11:01 12-08-2021'
 content:
     items: '@self.modular'

@@ -1,5 +1,5 @@
 ---
-title: 'Cluster setup'
+title: 'cluster setup'
 date: '09:17 12-08-2021'
 taxonomy:
     category:

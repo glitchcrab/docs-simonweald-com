@@ -1,5 +1,5 @@
 ---
-title: Kubernetes
+title: kubernetes
 published: true
 taxonomy:
     category:
