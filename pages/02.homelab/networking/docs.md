@@ -18,10 +18,10 @@ Instances use slices of `172.25.0.0/23`.
 
 - `172.25.0.0/27`
 
-| VM ID | IP               | instance          | notes                                               |
-|----------|----------------|--------------------|------------------------------------------------|
-| 200     | 172.25.0.3 | tailscale-relay | tailscale relay to access LAN           |
-| 201     | 172.25.0.4 | internal-infra   | misc infra uses (image building etc) |
+| VM ID | IP               | instance          | notes                                               | config                                                                                           |
+|----------|----------------|--------------------|------------------------------------------------|-------------------------------------------------------------------------------------|
+| 200     | 172.25.0.3 | tailscale-relay | tailscale relay to access LAN           | https://github.com/glitchcrab/homelab-instance-tailscale-relay   |
+| 201     | 172.25.0.4 | internal-infra   | misc infra uses (image building etc) | https://github.com/glitchcrab/homelab-instance-infra-conductor |
 
 - `172.25.0.32/27` - unused
 
