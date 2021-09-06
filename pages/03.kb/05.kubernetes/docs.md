@@ -7,6 +7,13 @@ taxonomy:
 ---
 
 ### misc
+
+* get all secrets without column headers:
+
+```bash
+kubectl get secrets -o custom-columns=NAME:.metadata.name --no-headers=true
+```
+
 * get all pods on a node:
 
 ```bash
