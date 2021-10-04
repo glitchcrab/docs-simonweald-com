@@ -27,13 +27,17 @@ Instances use slices of `172.25.0.0/23`.
 
 **kubernetes management cluster**
 
-- `172.25.0.64/28`
+- `172.25.0.64/27`
 
-| VM ID | IP                 | instance  | notes          |
-|----------|------------------|-------------|-----------------|
-| 300     | 172.25.0.64 | master1  | master node |
-| 301     | 172.25.0.65 | master2  | master node |
-| 302     | 172.25.0.66 | master3  | master node |
-| 303     | 172.25.0.67 | worker1  | worker node |
-| 304     | 172.25.0.68 | worker2  | worker node |
-| 305     | 172.25.0.69 | worker3  | worker node |
+| VM ID | IP                 | instance  | notes           |
+|----------|------------------|-------------|------------------|
+| -          | 172.25.0.64 | -              | haproxy VIP |
+| 300     | 172.25.0.65 | haproxy1 | haproxy lb    |
+| 301     | 172.25.0.66 | haproxy2 | haproxy lb   |
+| 302     | 172.25.0.67 | haproxy3 | haproxy lb   |
+| 303     | 172.25.0.68 | master1  | master node  |
+| 304     | 172.25.0.69 | master2  | master node  |
+| 305     | 172.25.0.70 | master3  | master node  |
+| 306     | 172.25.0.71 | worker1  | worker node  |
+| 307     | 172.25.0.72 | worker2  | worker node  |
+| 308     | 172.25.0.73 | worker3  | worker node  |
