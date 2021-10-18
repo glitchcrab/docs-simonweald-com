@@ -41,3 +41,24 @@ Instances use slices of `172.25.0.0/23`.
 | 306     | 172.25.0.71 | worker1  | worker node  |
 | 307     | 172.25.0.72 | worker2  | worker node  |
 | 308     | 172.25.0.73 | worker3  | worker node  |
+
+### kubernetes service ranges
+
+**overall range**
+
+Kubernetes clusters use smaller slices of the following range:
+
+- `172.25.1.128/25`
+
+Individual clusters receive a `/28` of this range:
+
+| Range                | BGP AS |cluster       |
+|-----------------------|-------------|--------------|
+| 172.25.1.128/28 | 65501 | k8s-mgmt |
+| 172.25.1.144/28 | 65502 | |
+| 172.25.1.160/28 | 65503 | |
+| 172.25.1.176/28 | 65504 | |
+| 172.25.1.192/28 | 65505 | |
+| 172.25.1.208/28 | 65506 | |
+| 172.25.1.224/28 | 65507 | |
+| 172.25.1.240/28 | 65508 | |
