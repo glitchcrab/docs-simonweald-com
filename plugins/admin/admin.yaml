@@ -28,7 +28,7 @@ frontend_preview_target: inline
 show_github_msg: true
 pages_list_display_field: title
 admin_icons: line-awesome
-enable_auto_updates_check: true
+enable_auto_updates_check: false
 notifications:
   feed: true
   dashboard: true
