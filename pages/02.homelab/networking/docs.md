@@ -42,6 +42,23 @@ Instances use slices of `172.25.0.0/23`.
 | 307     | 172.25.0.72 | worker2  | worker node  |
 | 308     | 172.25.0.73 | worker3  | worker node  |
 
+
+**kubernetes management cluster (talos)**
+
+- `172.25.0.160/27`
+
+| VM ID | IP                  | instance  | notes           |
+|----------|-------------------|-------------|------------------|
+| -          | 172.25.0.160 | -              | haproxy VIP |
+| 330     | 172.25.0.161 | haproxy1 | haproxy lb    |
+| 331     | 172.25.0.162 | haproxy2 | haproxy lb   |
+| 332     | 172.25.0.163 | master1  | master node  |
+| 333     | 172.25.0.164 | master2  | master node  |
+| 334     | 172.25.0.165 | master3  | master node  |
+| 335     | 172.25.0.166 | worker1  | worker node  |
+| 336     | 172.25.0.167 | worker2  | worker node  |
+| 337     | 172.25.0.168 | worker3  | worker node  |
+
 ### kubernetes service ranges
 
 **overall range**
